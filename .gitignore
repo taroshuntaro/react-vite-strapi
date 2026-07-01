@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env (real values are local-only; .env.example is the committed template)
+.env
+.env.local
+backend/.env
+
+# Build outputs
+frontend/dist/
+backend/dist/
+backend/build/
+backend/.tmp/
+backend/.strapi/
+
+# Uploads (keep the directory, ignore uploaded content)
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
